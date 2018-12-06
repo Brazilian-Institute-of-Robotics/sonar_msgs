@@ -29,24 +29,3 @@ generate_messages(
 catkin_package(
   CATKIN_DEPENDS message_runtime
   )
-
-###########
-## Build ##
-###########
-
-## Specify additional locations of header files
-## Your package locations should be listed before other locations
-include_directories(
-# include
-# ${catkin_INCLUDE_DIRS}
-)
-
-
-#############
-## Install ##
-#############
-
-# Install urdf files
-install(DIRECTORY msg
-        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
-        PATTERN "*~" EXCLUDE)
