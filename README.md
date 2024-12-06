@@ -25,7 +25,7 @@ The `sonar_msgs` package has been tested under:
 
 | Repository | Latest | Linters |  Doxygen |  Coverage |
 |---         |---     |---    |--- |--- |
-| `sonar_msgs`| [![Humble](https://github.com/Brazilian-Institute-of-Robotics/sonar_msgs/actions/workflows/colcon-action-runner.yaml/badge.svg)](https://github.com/Brazilian-Institute-of-Robotics/sonar_msgs/actions/workflows/colcon-action-runner.yaml) | [![lint-runner](https://github.com/Brazilian-Institute-of-Robotics//actions/workflows/runner-ci-lint.yaml/badge.svg)](https://github.com/Brazilian-Institute-of-Robotics/sonar_msgs/actions/workflows/runner-ci-lint.yaml) | - | - |
+| `sonar_msgs`| [![Humble](https://github.com/Brazilian-Institute-of-Robotics/sonar_msgs/actions/workflows/colcon-action-runner.yaml/badge.svg)](https://github.com/Brazilian-Institute-of-Robotics/sonar_msgs/actions/workflows/colcon-action-runner.yaml) |[![lint-runner](https://github.com/Brazilian-Institute-of-Robotics/sonar_msgs/actions/workflows/runner-ci-lint.yaml/badge.svg)](https://github.com/Brazilian-Institute-of-Robotics/sonar_msgs/actions/workflows/runner-ci-lint.yaml) | - | - |
 
 ### Dependencies
 
