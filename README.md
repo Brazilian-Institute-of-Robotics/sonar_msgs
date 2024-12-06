@@ -12,7 +12,7 @@ The source code is released under a [Apache License 2.0](https://github.com/Braz
 
 **Author:** SENAI CIMATEC Team\
 **Affiliation:** Brazilian Institute of Robotics \
-**Maintainer:** Autor, RBiM Team
+**Maintainer:** Autor, CIMATEC Team
 
 
 The `sonar_msgs` package has been tested under:

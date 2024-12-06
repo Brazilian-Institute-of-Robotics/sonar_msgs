@@ -18,9 +18,14 @@ name: lint-runner
 
 on: [pull_request, workflow_dispatch]
 
+
 jobs:
   ament_lint_general:
     name: ament_${{ matrix.linter }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: rostooling/setup-ros-docker:ubuntu-${{ matrix.ubuntu }}-latest
     strategy:
       fail-fast: false
       matrix:
@@ -28,10 +33,6 @@ jobs:
         distro:  [humble]
         ubuntu:  [jammy]
         package: [sonar_msgs]
-    runs-on: [self-hosted, colcon-hosted, linux, x64]
-    timeout-minutes: 20
-    container:
-      image: rostooling/setup-ros-docker:ubuntu-${{ matrix.ubuntu }}-latest
     steps:
     - uses: actions/checkout@v4
     - uses: ros-tooling/setup-ros@0.7.8
