@@ -1,6 +1,6 @@
 # This message contains an uncompressed sonar beams
 
-Header header        # Header timestamp should be acquisition time of image
+std_msgs/Header header        # Header timestamp should be acquisition time of image
 
 uint32 num_bins        # Number of bins of the sonar
 uint32 num_beams          # Number of beams of the sonar
